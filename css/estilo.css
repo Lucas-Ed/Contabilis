@@ -1,0 +1,32 @@
+/* #home {
+	background: #2750aa;
+	color: white;
+} */
+#home {
+    background: #2750aa;
+    color: white;
+    display: flex; /* Cria um container flexbox */
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha */
+}
+
+#home .col-md-6 {
+    padding: 2rem; /* Adiciona um pouco de padding para separar os elementos */
+}
+
+#home img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+}
+
+/* Centraliza o conteúdo verticalmente */
+#home .align-self-center {
+    align-self: center;
+}
+/**/
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
